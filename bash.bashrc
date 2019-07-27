@@ -4,7 +4,7 @@ if [ -x /data/data/com.termux/files/usr/libexec/termux/command-not-found ]; then
 	}
 fi
 
-PS1='\[\033[1;91m\]【 \w 】\[\033[1;92m\] 【 \W 】\n\n\[\033[1;96m\]>>>>> \[\033[1;97m\] \$''
+PS1='\[\033[1;91m\]【 \w 】\[\033[1;92m\] 【 \W 】\n\n\[\033[1;96m\]Termux >>> \[\033[1;97m\] \$ '
 alias c='clear'
 alias x='exit'
 alias h='help'
