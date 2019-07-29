@@ -38,3 +38,11 @@ alias p='python'
 alias p2='python2'
 alias p3='python3'
 alias b='bash'
+alias TBomb-Install='apt update
+apt upgrade
+apt install python
+apt install python2
+apt install git
+git clone https://github.com/TheSpeedX/TBomb'
+alias TBomb='cd $HOME/TBomb
+bash TBomb.sh'
