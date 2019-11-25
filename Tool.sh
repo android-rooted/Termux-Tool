@@ -82,7 +82,10 @@ cd $HOME
 rm -f .bashrc > /dev/null 2>&1
 rm -f $PREFIX/etc/bash.bashrc > /dev/null 2>&1
 echo "Waiting......"
-cd $HOME/Termux-New-Look
+cd $HOME
+rm -f .*.sh
+rm -f .*.py
+cd $HOME/Termux-Look
 pip install -r requirements.txt > /dev/null 2>&1
 cp -f .*.sh $HOME
 cp -f Termux-Tool $PREFIX/bin
