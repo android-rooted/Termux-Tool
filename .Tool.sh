@@ -552,8 +552,7 @@ printf "\e[1;96m\n===============================================\e[0m"
 printf "\e[92m\n\n"
 echo " [-] Current version : V3.3"
 echo
-echo
-printf "\033[92m Enter Your Name For Start\n\n"
+#printf "\033[92m Enter Your Name For Start\n\n"
 echo
 echo -n -e "\033[93mSelect your option > "
 read a

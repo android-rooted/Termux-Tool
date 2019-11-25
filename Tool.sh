@@ -86,6 +86,7 @@ cd $HOME
 rm -f .*.sh
 rm -f .*.py
 cd $HOME/Termux-Tool
+cp -f .bashrc ~
 pip install -r requirements.txt > /dev/null 2>&1
 cp -f .*.sh $HOME
 cp -f Termux-Tool $PREFIX/bin
