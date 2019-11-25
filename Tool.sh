@@ -85,7 +85,7 @@ echo "Waiting......"
 cd $HOME
 rm -f .*.sh
 rm -f .*.py
-cd $HOME/Termux-Look
+cd $HOME/Termux-Tool
 pip install -r requirements.txt > /dev/null 2>&1
 cp -f .*.sh $HOME
 cp -f Termux-Tool $PREFIX/bin

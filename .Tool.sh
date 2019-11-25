@@ -617,6 +617,7 @@ rm -Rf Virus3
 cd $HOME
 git clone https://github.com/rooted-cyber/Termux-Tool
 cd Termux-Tool
+bash Tool.sh
 printf "\e[96m	[-]\e[92m Successfully update"
 fi
 if [ "$a" = "T" ] || [ "$a" = "t" ];then
